@@ -13,13 +13,13 @@ public class CriaConta {
         System.out.println("primeira conta tem " + primeiraConta.saldo);
         System.out.println("segunda conta tem " + segundaConta.saldo);
 
-        segundaConta.numeroDaAgencia = 143;
+        segundaConta.numeroDaAgencia = 146;
         System.out.println(primeiraConta.numeroDaAgencia);
         System.out.println(primeiraConta.numeroDaContaCorrente);
 
         System.out.println(segundaConta.numeroDaAgencia);
 
-        segundaConta.numeroDaAgencia = 143;
+        segundaConta.numeroDaAgencia = 146;
         System.out.println("agora a segunda conta está na agencia " + segundaConta.numeroDaAgencia);
 
         if (primeiraConta == segundaConta) {
