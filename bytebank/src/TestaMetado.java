@@ -25,5 +25,8 @@ public class TestaMetado {
 
         System.out.println("==================");
 
+        contaDoGabriel.titular = "Gabriel de S. Silva Barrence";
+        System.out.println(contaDoGabriel.titular);
+
     }
 }

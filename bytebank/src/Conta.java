@@ -1,5 +1,5 @@
 public class Conta {
-    double saldo;
+    double saldo = 100;
     int numeroDaAgencia;
     int numeroDaContaCorrente;
     String titular;
