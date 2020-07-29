@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2482e3a1-6da6-4ef2-a76d-4baa389fa8e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/JavaParte2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-composto/src/TestaBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-composto/src/TestaContaSemCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-composto/src/TesteSacaNegativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-encapsulado/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-encapsulado/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-encapsulado/src/TesteGetESet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/TestaContaSemCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-composto/out/production/bytebank-composto/TestaContaSemCliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bytebank-composto/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-composto/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-composto/src/TestaContaSemCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-composto/src/TestaContaSemCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.TestaMetado">
     <configuration name="CriaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -85,22 +86,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595981389525" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1595637597666">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1595985055198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595637597666" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1595637597665">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595985055198" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1595985055198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595637597665" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1595637597665">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595985055198" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1595985055197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595637597665" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1595637597666">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595985055197" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1595985055198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595637597666" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595985055198" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1595981076593">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
