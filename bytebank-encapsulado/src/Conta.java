@@ -4,6 +4,12 @@ public class Conta {
     private int numeroDaContaCorrente;
     private Cliente titular;
 
+    public Conta(int numeroDaAgencia, int numeroDaContaCorrente){
+        this.numeroDaAgencia = numeroDaAgencia;
+        this.numeroDaContaCorrente = numeroDaContaCorrente;
+        System.out.println("Está sendo criado uma conta de número: "+ this.numeroDaContaCorrente);
+    }
+
     public void deposita(double valor) {
         this.saldo += valor;
     }
@@ -34,11 +40,23 @@ public class Conta {
         return this.numeroDaAgencia;
     }
 
+    public void setNumeroDaAgencia(int numeroDaAgencia) {
+        if(numeroDaAgencia <= 0){
+            System.out.println("O número deve ser maior que zero!");
+            return;
+        }
+        this.numeroDaAgencia = numeroDaAgencia;
+    }
+
     public int getNumeroDaContaCorrente() {
         return this.numeroDaContaCorrente;
     }
 
     public void setNumeroDaContaCorrente(int numeroDaContaCorrente) {
+        if(numeroDaContaCorrente <= 0){
+            System.out.println("O número deve ser maior que zero!");
+            return;
+        }
         this.numeroDaContaCorrente = numeroDaContaCorrente;
     }
 
