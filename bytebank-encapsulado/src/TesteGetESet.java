@@ -4,6 +4,7 @@ public class TesteGetESet {
         System.out.println(conta.getNumeroDaContaCorrente());
 
         Cliente gabriel = new Cliente();
+
         gabriel.setNome("Gabriel");
         conta.setTitular(gabriel);
         System.out.println(conta.getTitular().getNome());
